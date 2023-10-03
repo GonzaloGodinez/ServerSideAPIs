@@ -20,9 +20,9 @@
         <h6>Search for a City:</h6>
         <div class="col-sm-2">
             <div class="input-group mb-3">
-                <input type="text" class="form-control" placeholder="Denver" aria-label="city_Search"
+                <input type="text" class="form-control cityName" placeholder="cityName" aria-label="cityName"
                     aria-describedby="basic-addon1">
-                <button type="button" class="w-100 btn btn-primary">Search</button>
+                <button type="button" class="w-100 btn btn-primary search">Search</button>
                 <ul class="list-group">
                     <li class="list-group-item"><button class="w-100 btn-secondary">Denver</button></li>
                     <li class="list-group-item"><button class="w-100 btn-secondary">Los Angeles</button></li>
@@ -40,15 +40,15 @@
         <div class="col-sm-10">
             <div class="py-5 bg-primary-subtle">
                 <h5 id="city">Denver (10/01/2023) <img src="https://openweathermap.org/img/wn/01d@2x.png" alt=""></h5>
-                <p>temp 67.23 F</p>
-                <p>Wind 7.23 MPH</p>
-                <p>Humidity 43 %</p>
+                <p id="temp"> temp F</p>
+                <p id= "wind">7.23 MPH</p>
+                <p id="humidity" > 43 %</p>
             </div>
             <h3>5 Day Forecast</h3>
             <!-- 5 columns for daily forecast-->
             <div class="row">
                 <div class="col-sm-2 mb-3 mb-sm-0">
-                    <div class="card">
+                    <div class="card bg-primary">
                         <div class="card-body">
                             <h5 class="card-title">10/01/2023</h5>
                             <img src="https://openweathermap.org/img/wn/01d@2x.png" alt="">
@@ -59,7 +59,7 @@
                     </div>
                 </div>
                 <div class="col-sm-2 mb-3 mb-sm-0">
-                    <div class="card">
+                    <div class="card bg-primary">
                         <div class="card-body">
                             <h5 class="card-title">10/02/2023</h5>
                             <img src="https://openweathermap.org/img/wn/01d@2x.png" alt="">
@@ -70,7 +70,7 @@
                     </div>
                 </div>
                 <div class="col-sm-2 mb-3 mb-sm-0">
-                    <div class="card">
+                    <div class="card bg-primary">
                         <div class="card-body">
                             <h5 class="card-title">10/03/2023</h5>
                             <img src="https://openweathermap.org/img/wn/02d@2x.png" alt="">
@@ -81,7 +81,7 @@
                     </div>
                 </div>
                 <div class="col-sm-2 mb-3 mb-sm-0">
-                    <div class="card">
+                    <div class="card bg-primary">
                         <div class="card-body">
                             <h5 class="card-title">10/04/2023</h5>
                             <img src="https://openweathermap.org/img/wn/02d@2x.png" alt="">
@@ -92,7 +92,7 @@
                     </div>
                 </div>
                 <div class="col-sm-2 mb-3 mb-sm-0">
-                    <div class="card">
+                    <div class="card bg-primary">
                         <div class="card-body">
                             <h5 class="card-title">10/04/2023</h5>
                             <img src="https://openweathermap.org/img/wn/01d@2x.png" alt="">
