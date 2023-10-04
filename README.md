@@ -1,10 +1,10 @@
 # ServerSideAPIs
-[link to live deploy Server Side APIs](https://github.com/gonzalogodinez/serversideapis)
+[link to live deploy Server Side APIs](https://gonzalogodinez.github.io/ThirdPartyAPIs/)
 
 ## Description
-As a Developer, I created this project to show case HTML, CSS, Java Scripts and server side APIS as HTML CSS Full Stack Front End Web Developer.
+As a Developer, I created the Weather 5 day Forecast project to show case HTML, CSS, Java Scripts and server side APIS as HTML CSS Full Stack Front End Web Developer.
 
-This project emphasis the tools mentione above to architecture a weather Webpage on any web page using aligned boxes in columns, rows and UI bar tabs to navigate throughout the headers, footers, main content, sections, elements, images, and sections of the weather app. 
+This project emphasis the tools mentioned above to architecture a Weather Webpage on any web page using aligned boxes in columns, rows and UI bar tabs to navigate throughout the headers, main content, sections, elements, images, and sections of the weather app. 
 
 
 ## Installation
@@ -14,12 +14,9 @@ This project emphasis the tools mentione above to architecture a weather Webpage
 4. Open using text editor, for VS Code, command 'code .'
 
 ## Usage
-![Top Section](./assets/images/.png)
-![Middle Section](./assets/images/.png)
-![Bottom Section](./assets/images/.png)
-![footer Section](./assets/images/.png)
+![Main Weather Section img](./assets/5Day_Weather.png)
 
-[Link to live deploy Server Side APIs deploy](https://gonzalogodinez.github.io/ServerSideApis/)
+[Link to live deploy Server Side APIs deploy](https://gonzalogodinez.github.io/ThirdPartyAPIs/)
 
 ## License
 MIT License

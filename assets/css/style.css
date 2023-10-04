@@ -62,30 +62,6 @@
     margin: 2% auto;
   }
   
-  article {
-    /* If we were to change the value of `--dark`, then all references to it would change automatically */
-    border-bottom: 1px solid var(--dark);
-  }
-  
-  article p {
-    margin: 2% 0;
-    font-size: 110%;
-  }
-  
-  article ul {
-    margin-left: 5%;
-    font-size: 110%;
-    list-style: circle;
-  }
-  
-  footer {
-    display: flex;
-    justify-content: center;
-    padding: 2%;
-    background-color: var(--dark);
-    color: var(--light);
-  }
-  
   @media screen and (max-width: 768px) {
     header {
       flex-direction: column;
