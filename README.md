@@ -1,5 +1,5 @@
 # ServerSideAPIs
-[link to live deploy Server Side APIs](https://gonzalogodinez.github.io/ThirdPartyAPIs/)
+[link to live deploy Server Side APIs](https://github.com/GonzaloGodinez/ServerSideAPIs)
 
 ## Description
 As a Developer, I created the Weather 5 day Forecast project to show case HTML, CSS, Java Scripts and server side APIS as HTML CSS Full Stack Front End Web Developer.
@@ -16,7 +16,7 @@ This project emphasis the tools mentioned above to architecture a Weather Webpag
 ## Usage
 ![Main Weather Section img](./assets/5Day_Weather.png)
 
-[Link to live deploy Server Side APIs deploy](https://gonzalogodinez.github.io/ThirdPartyAPIs/)
+[Link to live deploy Server Side APIs deploy](https://github.com/GonzaloGodinez/ServerSideAPIs)
 
 ## License
 MIT License
