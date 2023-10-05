@@ -1,6 +1,7 @@
 var apiWeatherKey = "79fcfd41f56545f25f70feefcab32163"
 // set up variables such as Denver but not limited to only USA cities
 var search = document.querySelector(".search")
+var searchCity = document.getElementsByClassName(".searchCity")
 // append USA and Worldwide cities data by id
 var lat
 var lon
@@ -54,3 +55,10 @@ search.addEventListener("click", function () {
     console.log(cityName)
     getWeather(cityName)
 })
+
+// searchCity.addEventListener("click", function (e) {
+//     var cityName = e.target.textContent
+//     console.log(cityName)
+//     getWeather(cityName)
+// })
+
