@@ -5,6 +5,19 @@ var searchCity = document.getElementsByClassName(".searchCity")
 // append USA and Worldwide cities data by id
 var lat
 var lon
+var cityList = JSON.parse(localStorage.getItem("cityList")) || []
+var cityHistory = document.querySelector("#cityHistory")
+function displayButton() {
+    cityHistory.innerHTML = ""
+    for (let i = 0; i < cityList.length; i++) {
+        cityHistory.innerHTML += `<li class="list-group-item"><button class="w-100 btn-secondary searchCity">${cityList[i]}</button></li>`
+    }
+    cityHistory.addEventListener("click", function (event) {
+        var cityName=event.target.textContent
+        getWeather(cityName)
+    })
+}
+displayButton()
 function getWeather(cityName) {
     fetch("https://api.openweathermap.org/data/2.5/weather?q=" + cityName + "&appid=" + apiWeatherKey + "&units=imperial")
         .then(function (response) {
@@ -15,6 +28,11 @@ function getWeather(cityName) {
             lon = data.coord.lon
             getForecast(lat, lon)
             var cityh5 = document.querySelector("#city")
+            if (cityList.includes(data.name) === false) {
+                cityList.push(data.name)
+                localStorage.setItem("cityList", JSON.stringify(cityList))
+                displayButton()
+            }
             cityh5.innerHTML = `${data.name} (${new Date(data.dt * 1000).toLocaleDateString()}) <img src="https://openweathermap.org/img/wn/${data.weather[0].icon}@2x.png" alt="">`
             var tempid = document.querySelector("#temp")
             tempid.textContent = `temp ${data.main.temp} F`

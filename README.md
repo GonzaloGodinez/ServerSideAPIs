@@ -14,7 +14,7 @@ This project emphasis the tools mentioned above to architecture a Weather Webpag
 4. Open using text editor, for VS Code, command 'code .'
 
 ## Usage
-[Main Weather Section img](./assets/5Day_Weather.png)
+![Main Weather Section img](./assets/5Day_Weather.png)
 
 [Link to Deploy](https://gonzalogodinez.github.io/ServerSideAPIs/)
 
